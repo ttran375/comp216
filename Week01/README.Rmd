@@ -42,5 +42,18 @@ b = True + False / True
 b
 0.2 + 0.2
 0.1 + 0.2
+id(True)
+value = True
+id(value)
 ```
 
+# String
+
+```{python}
+int('1')
+float('2.567')
+list('abcdefg')
+int('abc')
+int('0b10')
+int(0b10)
+```
