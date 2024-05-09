@@ -29,3 +29,7 @@ id(value)
 int('1')
 float('2.567')
 list('abcdefg')
+int('abc')
+int('0b10')
+int(0b10)
+
