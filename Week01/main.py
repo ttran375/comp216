@@ -15,3 +15,9 @@ d_num_1 = 1.7977e308
 d_num_1
 d_num_2 = -1.7977e308
 d_num_2
+2**3
+pow(2, 3)
+a = True + True
+a
+b = True + False / True
+b
