@@ -1,92 +1,109 @@
 ``` python
+id(None)
 ```
 
-``` python
->>> id(None)
-111004646712000
-```
+    ## 135747496923712
 
 ``` python
->>> test = None
+test = None
+id(test)
 ```
 
-``` python
->>> id(test)
-111004646712000
-```
+    ## 135747496923712
 
 ``` python
->>> # None = 'COMP216'
+# None = 'COMP216'
+type(None)
 ```
 
-``` python
->>> type(None)
-<class 'NoneType'>
-```
+    ## <class 'NoneType'>
 
 ``` python
->>> dir(__builtins__)
-['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EncodingWarning', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'ZeroDivisionError', '_', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'aiter', 'all', 'anext', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+dir(__builtins__)
 ```
 
-``` python
->>> type(0b1)
-<class 'int'>
-```
+    ## ['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'ZeroDivisionError', '_', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'all', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
 
 ``` python
->>> print(0o10)
-8
+type(0b1)
 ```
 
-``` python
->>> print(0b10)
-2
-```
+    ## <class 'int'>
 
 ``` python
->>> type(0b10)
-<class 'int'>
+print(0o10)
 ```
 
-``` python
->>> num = 100_000_000
-```
+    ## 8
 
 ``` python
->>> num
-100000000
+print(0b10)
 ```
 
-``` python
->>> d_num = 1.7976e308
-```
+    ## 2
 
 ``` python
->>> d_num_1 = 1.7977e308
+type(0b10)
 ```
 
-``` python
->>> d_num_1
-inf
-```
+    ## <class 'int'>
 
 ``` python
->>> d_num_2 = -1.7977e308
+num = 100_000_000
+num
 ```
 
-``` python
->>> d_num_2
--inf
-```
+    ## 100000000
 
 ``` python
->>> 2**3
-8
+d_num = 1.7976e308
+d_num_1 = 1.7977e308
+d_num_1
 ```
 
+    ## inf
+
 ``` python
->>> pow(2, 3)
-8
- 
+d_num_2 = -1.7977e308
+d_num_2
 ```
+
+    ## -inf
+
+``` python
+2**3
+```
+
+    ## 8
+
+``` python
+pow(2, 3)
+```
+
+    ## 8
+
+``` python
+a = True + True
+a
+```
+
+    ## 2
+
+``` python
+b = True + False / True
+b
+```
+
+    ## 1.0
+
+``` python
+0.2 + 0.2
+```
+
+    ## 0.4
+
+``` python
+0.1 + 0.2
+```
+
+    ## 0.30000000000000004
