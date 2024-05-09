@@ -1,0 +1,652 @@
+| > Start-up Code  |  |                       |
+| > Sample check for    |
+| > python              |
+| > \$ python3 #start python                                            |
+| > \>\>\> 4 + 5 #do some operation                                     |
+| > 9                                                                   |
+| > \>\>\> 89 - 4.3                                                     |
+| > 84.7\>\>\> a = 3 \* 4                                               |
+| > Start-up Code  |  |                       |
+| > Sample check for    |
+| > python              |
+| > \>\>\> a = 12 #bind the 12 to the variable a                        |
+| > \>\>\> a #see the value of a                                        |
+| > 12                                                                  |
+| > \>\>\> print(f\'value of a is {a}\') #see the value in terminal     |
+| > value of a is 12                                                    |
+| > Start-up Code  |  |                       |
+| > Sample check for    |
+| > python              |
+| > \>\>\> type(a) #get more info on a:                                 |
+| > \<class \'int'\>                                                    |
+| > \>\>\> dir() #see all the objects in                                |
+| > scope                                                               |
+| > \[\'\_\_annotations\_\_\', \'\_\_builtins\_\_\', \'\_\_doc\_\_\',   |
+| > \'\_\_loader\_\_\',                                                 |
+| > Start-up Code  |  |                       |
+| > Sample check for    |
+| > python              |
+| > \>\>\> dir(a) #view more info on an                                 |
+| > object                                                              |
+| > \[\'\_\_abs\_\_\', \'\_\_add\_\_\', \'\_\_and\_\_\',                |
+| > \'\_\_bool\_\_\', \'\_\_ceil\_\_\',                                 |
+| > \'\_\_class\_\_\',                                                  |
+| > \'bit_length\', \'conjugate\', \'denominator\', \'from_bytes\',     |
+| > \'imag\', \'numerator\', \'real\', \'to_bytes\'\]                   |
+| > Start-up Code  |  |                       |
+| > Sample check for    |
+| > python              |
+| > \>\>\> help(a) #obtain even more                                    |
+| > information on an object                                            |
+| > Python Data Types                                         |  |  |
+| > 27                                                                  |
+| > Built-in Data  |  |                       |
+| > Types          |  |                       |
+| > 1 None              | 5 Sequence (list,     |
+| > Boolean (bool)      | 7 Set (set,           |
+| > Text (str)          | 8 Binary (bytes,      |
+| > Numeric  |  |                 |                 |
+| > Numbers  |  |                 |
+| > are      |  |                 |
+| >          |  |                 |
+| > this     |  |                 |
+| > means    |  |                 |
+| > that     |  |                 |
+| > values   |  |                 |
+| > in       |  |                 |
+| > memory   |  |                 |
+| > are not  |  |                 |
+| > mutated,      |                 |                 |
+| > another spot  |                 |                 |
+| > is chosen     |                 |                 |
+| > with the new  |                 |                 |
+| > value         |                 |                 |
+| > There are     |                 |
+| > three types   |                 |
+| > of numbers:   |                 |
+| > int literals  |
+| > (holds        |
+| > non-limited   |
+| > length) -- 7, |
+| > 0b100, 0o27,  |
+| > 0xf           |
+| > .001, 1e100,  |                 |                 |
+| > 3.14e-10      |                 |                 |
+| > Complex       |
+| > literals --   |
+| > 3.14j, 10.j,  |
+| > 10j, .001j,   |
+| > 1e100j,       |
+| > 3.14e-10j     |
+| > Numeric  |  |                 |                 |
+| > Perform  |  |                 |
+| >          |  |                 |
+| > and      |  |                 |
+| > other    |  |                 |
+| >          |  |                 |
+| > (e.g.,   |  |                 |
+| > co       |  |                 |
+| > \>\>\>        |                 | \>\>\>          |
+| > int(3.14)     |                 | complex(3)      |
+| > \>\>\>        |                 | \>\>\>          |
+| > float(5)      |                 | complex(1, 2)   |
+| > Numeric  |  |                 |                 |
+| > Perform  |  |                 |
+| >          |  |                 |
+| > and      |  |                 |
+| > other    |  |                 |
+| >          |  |                 |
+| > (e.g.,   |  |                 |
+| > co       |  |                 |
+| > \>\>\>        |                 | \>\>\>          |
+| > int(3.14)     |                 | complex(3)      |
+| > 3             |                 | (3+0j)          |
+| > \>\>\>        |                 | \>\>\>          |
+| > float(5)      |                 | complex(1, 2)   |
+| > 5.0           |                 | (1+2j)          |
+| > Numeric  |  |                 |                 |
+| > Supports |  |                 |
+| > various  |  |                 |
+| >          |  |                 |
+| >          |  |                 |
+| > and      |  |                 |
+| > methods  |  |                 |
+| > include: |  |                 |
+| > Arithmetic    |
+| > operators     |
+| > include: (),  |
+| > \*\*, \* , /  |
+| > , %, +, --    |
+| > (Remember     |
+| > order of      |                 |                 |
+| > operations -- |                 |                 |
+| > BEDMAS)       |                 |                 |
+| > Methods       |
+| > include:      |
+| > round(),      |
+| > abs(), pow()  |
+| > Boolean  |  |                 |                 |
+| > This is  |  |                 |
+| > a        |  |                 |
+| > numeric  |  |                 |
+| > sub-type |  |                 |
+| > There are     |                 |
+| > only two      |                 |
+| > literal bool  |                 |
+| > values: True  |                 |
+| > or False      |                 |
+| > Any python    |                 |
+| > object can be |                 |
+| > tested for    |                 |
+| > truth value   |                 |
+| > Following     |                 |
+| > values        |                 |
+| > evaluate as   |                 |
+| > False:        |                 |
+| > None          |
+| > False         |
+| > Zero numeric  |
+| > type: 0, 0l,  |
+| > 0.0, 0j       |
+| > Any empty     |
+| > sequence:     |
+| > \'\', {},     |
+| > \[\]          |
+| > Boolean  |  |                 |                 |
+| > Examples:     |                 |
+| > \>\>\>        |                 | > \>\>\>        |
+| >               |                 | >               |
+| > \>\>\>        |                 | +------------+  |
+| >               |                 | | > \>\>\>   |  |
+| > bool(89) |  |
+| > \>\>\>        |                 | > \>\>\>        |
+| >               |                 | > bool(0)       |
+| > \>\>\>        |                 | > \>\>\>        |
+| > bool(\'\')    |                 | > bool(\[\])    |
+| > Boolean  |  |                 |                 |
+| > Examples:     |                 |
+| > \>\>\>        |                 | > \>\>\>        |
+| >               |                 | > bool({})      |
+| > #False        |
+| > #True         |                 |                 |
+| > \>\>\>   |  |                 | #True           |
+| > bool(    |  |                 |                 |
+| > #True    |  |                 |                 |
+| > \>\>\>        |                 | > \>\>\>        |
+| >               |                 | > bool(0)       |
+| > #False        |
+| > #True         |                 |                 |
+| > \>\>\>        |                 | > \>\>\>        |
+| > bool(\'\')    |                 | > bool(\[\])    |
+| > #False        |                 | > #False        |
+| > String   |  |                 |                 |
+| > Text          |                 |
+| > delimited by  |                 |
+| > a pair of     |                 |
+| > single,       |                 |
+| > double or     |                 |
+| > triple quotes |                 |
+| > \>\>\> a =    |                 | \>\>\> a =      |
+| > \'Hello       |                 | \'\'\'First     |
+| > world\'       |                 | line            |
+| > \>\>\> a      |                 | > \... second   |
+| > line          |
+| > \'Hello       |                 | > \... third    |
+| > world\'       |                 | > line\'\'\'    |
+| > \>\>\> a = \"Narendra\'s toys\" | > \>\>\> a\                       |
+| > \>\>\> a                        | > \'First line \\nsecond line     |
+| > \\nthird line\'                 |
+| > \"Narendra\'s toys\"                                                |
+| > String         |  |                       |
+| > Byte string         |
+| > examples:           |
+| > \>\>\> a = b\'First line\'                                          |
+| > \>\>\> a                                                            |
+| > b\'First line\'                                                     |
+| > \>\>\> type(a)                                                      |
+| > \<class \'bytes\'\>                                                 |
+| > String         |  |                       |
+| > Type conversion to  |
+| > List:               |
+| > \>\>\> list(a) \# byte string to list                               |
+| > \[70, 105, 114, 115, 116, 32, 108, 105, 110, 101\]                  |
+| > \>\>\> list(\'First line\') \# normal string to list                |
+| > String         |  |                       |
+| > Unicode string      |
+| > examples:           |
+| > \>\>\> a = \'\\u00c4\\u00e8\' #4 hex digits for one character       |
+| > \>\>\> a                                                            |
+| > \'Äè\'                                                              |
+| > \>\>\> a = \'\\U000000c4\\U000000e8\' #8 hex digits for one         |
+| > character                                                           |
+| > \>\>\> a                                                            |
+| > String         |  |                       |
+| > Unicode string      |
+| > examples continued: |
+| > \>\>\> ord(a\[0\]) #returns an integer for the Unicode character    |
+| > 196                                                                 |
+| > \>\>\> chr(196) #converts an integer to its Unicode character       |
+| > \'Ä\'                                                               |
+| > String         |  |                       |
+| > String operation    |
+| > examples:           |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.split()                                                    |
+| > \>\>\> a.upper()                                                    |
+| > String         |  |                       |
+| > String operations   |
+| > example:            |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.split()                                                    |
+| > \[\'the\', \'quick\', \'brown\', \'fox\', \'jumps\', \'over\',      |
+| > \'the\',                                                            |
+| > \'lazy\', \'dog\'\]                                                 |
+| > \>\>\> a.upper()                                                    |
+| > \'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\'                     |
+| > String         |  |                       |
+| > String operations   |
+| > example:            |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.capitalize()                                               |
+| > \>\>\> a.title()                                                    |
+| > String         |  |                       |
+| > String operations   |
+| > example:            |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.capitalize()                                               |
+| > \'The quick brown fox jumps over the lazy dog\'                     |
+| > \>\>\> a.title()                                                    |
+| > \'The Quick Brown Fox Jumps Over The Lazy Dog\'                     |
+| > String         |  |                       |
+| > String operations   |
+| > example:            |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.replace(\'o\', \'O\')                                      |
+| > \>\>\> a.replace(\'o\', \'O\').swapcase()                           |
+| > String         |  |                       |
+| > String operations   |
+| > example:            |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.replace(\'o\', \'O\')                                      |
+| > \'the quick brOwn fOx jumps Over the lazy dOg\'                     |
+| > \>\>\> a.replace(\'o\', \'O\').swapcase()                           |
+| > \'THE QUICK BRoWN FoX JUMPS oVER THE LAZY DoG\'                     |
+| > String         |  |                       |
+| > String operations   |
+| > example:            |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.find(\'dog\')                                              |
+| > String         |  |                       |
+| > String operations   |
+| > example:            |
+| > \>\>\> a = \'the quick brown fox jumps over the lazy dog\'          |
+| > \>\>\> a.find(\'dog\')                                              |
+| > 40                                                                  |
+| > Tuple    |  |                 |                 |
+| >          |  |                 |
+| > of       |  |                 |
+| >          |  |                 |
+| > objects  |  |                 |
+| >          |  |                 |
+| > Cannot be     |
+| > changed after |
+| > assignment    |
+| > Created by    |                 |
+| > placing all   |                 |
+| > the elements  |                 |
+| > inside        |                 |
+| > parentheses ( |                 |
+| > ) and each    |                 |
+| > elements is   |                 |                 |
+| > separated by  |                 |                 |
+| > commas        |                 |                 |
+| > Elements do   |
+| > not have to   |
+| > be the same   |
+| > type          |
+| > All elements  |                 |
+| > are ordered   |                 |
+| > with an index |                 |
+| > starting at 0 |                 |
+| > Tuple          |  |                       |
+| > Examples:           |
+| > \>\>\> tup1 = ()                                                    |
+| > \>\>\> tup2 = (\'programming\', \'mathematics\', 2018, 3.14)        |
+| > \>\>\> tup3 = (1, 2, 3, 4, 5, 3, 2, 1)                              |
+| > \>\>\> tup4 = (\'narendra\', \'pershad\')                           |
+| > List     |  |                 |                 |
+| >          |  |                 |
+| > of       |  |                 |
+| > mutable  |  |                 |
+| > objects  |  |                 |
+| >          |  |                 |
+| > Can be        |
+| > changed after |
+| > assignment    |
+| > Created by    |                 |
+| > placing all   |                 |
+| > the elements  |                 |
+| > inside square |                 |
+| > parentheses   |                 |
+| > \[ \]         |                 |
+| > and each      |                 |                 |
+| > elements is   |                 |                 |
+| > separated by  |                 |                 |
+| > commas        |                 |                 |
+| > Elements do   |
+| > not have to   |
+| > be the same   |
+| > type          |
+| > All elements  |                 |
+| > are ordered   |                 |
+| > with an index |                 |
+| > starting at 0 |                 |
+| > List           |  |                       |
+| > Examples:           |
+| > \>\>\> lst1 = \[\]                                                  |
+| > \>\>\> lst2 = \[\'programming\', \'mathematics\', 2018, 3.14\]      |
+| > \>\>\> lst3 = \[1, 2, 3, 4, 5, 3, 2, 1\]                            |
+| > \>\>\> lst4 = \[\'narendra\', \'pershad\'\]                         |
+| > List           |  |                       |
+| > Indexing examples:  |
+| > \>\>\> lst2\[1\] \# \'mathematics\'                                 |
+| > \>\>\> lst3\[8\] \# indexError                                      |
+| > \>\>\> lst2\[-1\] \# 3.14                                           |
+| > \>\>\> lst3\[-3\] \# 3                                              |
+| > List           |  |                       |
+| > List transversal    |
+| > examples:           |
+| > \>\>\> for item in lst3:                                            |
+| > \>\>\> for i in range(len(lst3)):                                   |
+| >List</p> |           |           |           |           |
+| > Common  |           | ▪         | <table>   |
+| > methods |           |           | <         |
+| >         |           |           | colgroup> |
+| >         |           |           |
+| > clear() | ▪         | > pop()   |
+| > copy()  | ▪         | >         |
+| > count() | ▪         | > sort()  |
+| >         | ▪         | >         |
+| > index() |           |           |
+| > Set      |  |                 |                 |
+| >          |  |                 |
+| > of       |  |                 |
+| > unique   |  |                 |
+| >          |  |                 |
+| > objects  |  |                 |
+| >          |  |                 |
+| > Cannot be     |
+| > changed after |
+| > assignment    |
+| > and does not  |
+| > allow         |
+| > duplicates    |                 |                 |
+| > Created by    |                 |
+| > placing all   |                 |
+| > the elements  |                 |
+| > inside curly  |                 |
+| > parentheses { |                 |
+| > } and         |                 |
+| > each elements |                 |                 |
+| > is separated  |                 |                 |
+| > by commas     |                 |                 |
+| > Elements do   |
+| > not have to   |
+| > be the same   |
+| > type          |
+| > Does not      |
+| > support       |
+| > lists, sets   |
+| > or            |
+| > dictionaries  |
+| > as elements   |
+| > Elements are  |                 |
+| > not ordered   |                 |
+| > Mimics a      |                 |
+| > Mathematical  |                 |
+| > set           |                 |
+| > Set            |  |                       |
+| > Examples:           |
+| > \>\>\> set1 = {}                                                    |
+| > \>\>\> set2 = {\'programming\', \'mathematics\', 2018, 3.14}        |
+| > \>\>\> set3 = {1, 2, 3, 4, 5, 3, 2, 1} \# only unique items will    |
+| > be in the resulting set                                             |
+| > \>\>\> set4 = {\'Centennial\', \'College\'}                         |
+| >          |  |                 |                 |
+| >          |  |                 |
+| > of       |  |                 |
+| >          |  |                 |
+| > pairs    |  |                 |
+| > Can be        |
+| > changed after |
+| > assignment    |
+| > Created with  |                 |
+| > a unique      |                 |
+| > identifier    |                 |
+| > (key) which   |                 |
+| > is associated |                 |
+| > with value    |                 |
+| > each          |                 |                 |
+| > key-value     |                 |                 |
+| > pair is       |                 |                 |
+| > separated by  |                 |                 |
+| > commas        |                 |                 |
+| > Keys can be   |
+| > integers,     |
+| > floats,       |
+| > strings,      |
+| > Booleans,     |
+| > functions,    |
+| > tuples,       |
+| > etc. and      |                 |                 |
+| > cannot be a   |                 |                 |
+| > dictionary or |                 |                 |
+| > a list        |                 |                 |
+| > Values have   |
+| > no            |
+| > restriction   |
+| > on the value, |
+| > it may be any |
+| > python        |
+| > object        |                 |                 |
+| > Dictionary     |  |                       |
+| > Examples:           |
+| > \>\>\> dict1 = {\'Ilia\' : \'red\', \'Narendra\' : \'green\',       |
+| > \'Arben\' :                                                         |
+| > \'yellow\' , \'Hao\' : \'blue\'}                                    |
+| > \>\>\> dict1\[\'Narendra\'\] \# access value \'green'               |
+| > \>\>\> dict1\[\'Devaraja\'\] = \'red\' \# add new key-value pair    |
+| > Dictionary     |  |                       |
+| > Examples:           |
+| > \>\>\> dict1 = {\'Ilia\' : \'red\', \'Narendra\' : \'green\',       |
+| > \'Arben\' :                                                         |
+| > \'yellow\' , \'Hao\' : \'blue\'}                                    |
+| > \>\>\> dict1\[\'Ilia\'\] = \'orange\' \# change existing value      |
+| > \>\>\> del dict1\[\'Ilia\'\] \# remove key-value pair               |
+| > Dictionary     |  |                       |
+| > Dictionary          |
+| > transversal         |
+| > examples:           |
+| > \>\>\> for key in dict1:                                            |
+| >          |  |                 |                 |
+| > Common   |  |                 |
+| > methods  |  |                 |
+| > include: |  |                 |
+| > all()         |
+| > any()         |
+| > len()         |
+| > sorted()      |
+| > clear()       |
+| > keys()        |
+| > values()      |
+| > False   | <table>   | > finally | <table>   | > return  |
+| > None    | >         | > for     | > lambda  | > try     |
+| > True    | > def     | > from    | >         | > while   |
+| > and     | > del     | > global  | > not     | > with    |
+| > as      | > elif    | > if      | > or      | > yield   |
+| > assert  | > else    | > import  | > pass    |           |
+| > break   | > except  | > in      | > raise   |           |
+| > Python Control Structures                                 |  |  |
+| > 64                                                                  |
+| > Control  |  |                 |                 |
+| >          |  |                 |                 |
+| > Dictate  |  |                 |
+| > how the  |  |                 |
+| > lines of |  |                 |
+| > code is  |  |                 |
+| >          |  |                 |
+| > Three main    |                 |
+| >               |                 |
+| > include:      |                 |
+| > no skips      |                 |                 |
+| > Conditionals  |
+| > or branching  |
+| > -- blocks of  |
+| > code that may |
+| > be            |
+| > processed     |                 |                 |
+| > optionally    |                 |                 |
+| > Looping or    |
+| > iteration or  |
+| > repetition -- |
+| > blocks of     |
+| > code that may |
+| > be            |
+| > processed     |                 |                 |
+| > zero or more  |                 |                 |
+| > times         |                 |                 |
+| > Each control  |                 |
+| > structure     |                 |
+| > brings some   |                 |
+| > benefit(s) to |                 |
+| > the language  |                 |
+| > co      |           |           |
+| >         |           |           |
+| >         |           |           |
+| >         |           |           |
+| > or      |           |           |
+| > m       |           |           |
+| >         |           |           |
+| > The     |           |           |
+| > results |           |           |
+| > of the  |           |           |
+| > e       |           |           |
+| > is True |           |           |
+| > (so,    |           |           |
+| > execute |           |           |
+| > block   |           |           |
+| > of      |           |           |
+| > code)   |           |           |
+| > or      |           |           |           |           |
+| > False   |           |           |           |           |
+| > (so,    |           |           |           |           |
+| > proceed |           |           |           |           |
+| > to next |           |           |           |           |
+| > block   |           |           |           |           |
+| > of      |           |           |           |           |
+| > code)   |           |           |           |           |
+| > \< Less |
+| > than    |
+| > \<=     |
+| > Less    |
+| > than or |
+| > equal   |
+| > to      |
+| > Bra  |  |             |             |             |
+| > Str  |  |             |             |             |
+| > Logical   |             |             |
+| > operators |             |             |
+| > include:  |             |             |
+| > or --     | > not --    |
+| > True if   | > True if   |
+| > at least  | > the       |
+| > one of    | operand is  |
+| > the       | evaluated   |
+| > operands  |             |
+| > are true  | > is False, |
+| > and       |
+| > vise-versa    |
+| > Bitwise       |                 | > \>\> Bitwise  |
+| > operators     |                 | > right shift   |
+| > include:      |                 |                 |
+| > & Bitwise And | +------------+  |                 |
+| > \~       |  |                 |
+| > Bitwise  |  |                 |
+| > Not      |  |                 |
+| > \| Bitwise Or | > \^ Bitwise    | > \<\< Bitwise  |
+| > XOR           | > left shift    |
+| >          |  |                 |                 |
+| >          |  |                 |                 |
+| > Identity      |                 |
+| > operators     |                 |
+| > include:      |                 |
+| > is not --     |
+| > is --    |  |                 | > True if       |
+| > True if  |  |                 | > operands are  |
+| > the      |  |                 | > not           |
+| > operand  |  |                 |                 |
+| > are      |  |                 |                 |
+| > identical     |                 | > identical     |
+| > Membership    | +------------+  |
+| > operators     | | > not in   |  |
+| > include:      | | > -- True  |  |
+| > if the   |  |
+| > value or |  |
+| > in --    |  | +============+  |
+| > True if  |  | +------------+  |
+| > the      |  |                 |
+| > value or |  |                 |
+| > variable |  |                 |
+| > is found in   |                 | variable is not |
+| > the object    |                 | found in the    |
+| >          |  |                 |                 |
+| >          |  |                 |                 |
+| >          |  |                 |
+| > by the   |  |                 |
+| >          |  |                 |
+| > flow     |  |                 |
+| >          |  |                 |
+| > types:   |  |                 |
+| > ▪\            | > If            |
+| > ▪\            | > statements\   |
+| > ▪\            | > If-else       |
+| > ▪             | > statements\   |
+| > Nested-if     |
+| > statements\   |
+| > If-elif-else  |
+| > statements    |
+| > If        | ▪           | > If Else   |
+| > statement |             | > statement |
+| > syntax:   |             | > syntax:   |
+| > \>\>\> if |
+| > \<\<con   |
+| ></th> |  |             |             |             |             |
+| > If Elif   | ▪           | > Nested If |
+| > Else      |             | > statement |
+| > statement |             | > syntax:   |
+| > syntax:   |             |             |
+| > \>\>\> if |             |             | > \>\>\> \# |
+| > \<\<cond  |             |             | > outer if  |
+| > statement |
+| > if        |
+| > \<\<cond  |
+| > Example:  | ▪           | > Output:   |
+| > \>\>\> temp = 98                                                    |
+| > \>\>\> if temp \< 98:                                               |
+| > print(\'Cold\')                                                     |
+| > Example:  | ▪           | > Output:   |
+| > \>\>\>    |             |             | > \>\>\>    |
+| > temp = 98 |             |             | > Normal    |
+| > \>\>\> if temp \< 98:                                               |
+| > print(\'Cold\')                                                     |
+| > Example:  | ▪           | > Output:   |
+| > \>\>\> number = 5                                                   |
+| > \>\>\> if number \>= 0:                                             |
+| > if number == 0:                                                     |
+| > Example:  | ▪           | > Output:   |
+| > \>\>\>    |             |             | > \>\>\>    |
+| > number =  |             |             | > \'+\'     |
+| > 5         |             |             |             |
+| > \>\>\> if number \>= 0:                                             |
+| > if number == 0:                                                     |
+| > 76                              | > **"**                           |
