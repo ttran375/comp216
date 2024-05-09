@@ -21,3 +21,5 @@ a = True + True
 a
 b = True + False / True
 b
+0.2 + 0.2
+0.1 + 0.2
