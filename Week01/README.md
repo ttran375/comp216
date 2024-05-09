@@ -1,17 +1,17 @@
-# Week 1
+# Start-up Code
 
 ``` python
 id(None)
 ```
 
-    ## 136601960534592
+    ## 136020961350208
 
 ``` python
 test = None
 id(test)
 ```
 
-    ## 136601960534592
+    ## 136020961350208
 
 ``` python
 # None = 'COMP216'
@@ -50,6 +50,8 @@ type(0b10)
 
     ## <class 'int'>
 
+# Numeric
+
 ``` python
 num = 100_000_000
 num
@@ -84,6 +86,8 @@ pow(2, 3)
 
     ## 8
 
+# Boolean
+
 ``` python
 a = True + True
 a
@@ -109,3 +113,44 @@ b
 ```
 
     ## 0.30000000000000004
+
+``` python
+id(True)
+```
+
+    ## 136020961269088
+
+``` python
+value = True
+id(value)
+```
+
+    ## 136020961269088
+
+# String
+
+``` python
+int('1')
+```
+
+    ## 1
+
+``` python
+float('2.567')
+```
+
+    ## 2.567
+
+``` python
+list('abcdefg')
+```
+
+    ## ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+``` python
+# int('abc')
+# int('0b10')
+int(0b10)
+```
+
+    ## 2

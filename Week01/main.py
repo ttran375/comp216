@@ -26,12 +26,13 @@ b
 id(True)
 value = True
 id(value)
-
-String
-int('1')
-float('2.567')
-list('abcdefg')
-int('abc')
-int('0b10')
+int("1")
+float("2.567")
+list("abcdefg")
+int("abc")
+int("0b10")
 int(0b10)
+sample_tuple = (1, 2, 3, 4)
+sample_tuple[1]
+sample_tuple[1] = 7
 
