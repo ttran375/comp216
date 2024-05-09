@@ -20,6 +20,11 @@ type(0b1)
 print(0o10)
 print(0b10)
 type(0b10)
+
+
+# Numeric
+
+```{python}
 num = 100_000_000
 num
 d_num = 1.7976e308
@@ -36,3 +41,4 @@ b
 0.2 + 0.2
 0.1 + 0.2
 ```
+

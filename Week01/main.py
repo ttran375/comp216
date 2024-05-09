@@ -26,3 +26,6 @@ b
 id(True)
 value = True
 id(value)
+int('1')
+float('2.567')
+list('abcdefg')
