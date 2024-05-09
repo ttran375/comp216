@@ -13,14 +13,11 @@ id(test)
 # None = 'COMP216'
 type(None)
 dir(__builtins__)
-```
-
-# type
 type(0b1)
 print(0o10)
 print(0b10)
 type(0b10)
-
+```
 
 # Numeric
 
