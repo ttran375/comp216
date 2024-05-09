@@ -4,14 +4,14 @@
 id(None)
 ```
 
-    ## 136020961350208
+    ## 134021958160960
 
 ``` python
 test = None
 id(test)
 ```
 
-    ## 136020961350208
+    ## 134021958160960
 
 ``` python
 # None = 'COMP216'
@@ -118,39 +118,47 @@ b
 id(True)
 ```
 
-    ## 136020961269088
+    ## 134021958079840
 
 ``` python
 value = True
 id(value)
 ```
 
-    ## 136020961269088
+    ## 134021958079840
 
 # String
 
 ``` python
-int('1')
-```
-
-    ## 1
-
-``` python
-float('2.567')
+# int("1")
+float("2.567")
 ```
 
     ## 2.567
 
 ``` python
-list('abcdefg')
+list("abcdefg")
 ```
 
     ## ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 
 ``` python
-# int('abc')
-# int('0b10')
+# int("abc")
+# int("0b10")
 int(0b10)
 ```
 
     ## 2
+
+# Tuple
+
+``` python
+sample_tuple = (1, 2, 3, 4)
+sample_tuple[1]
+```
+
+    ## 2
+
+``` python
+# sample_tuple[1] = 7
+```
