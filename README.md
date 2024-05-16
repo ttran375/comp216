@@ -2,4 +2,4 @@
 
 ## Week 2
 
-In-class exercises: [Control Structures](Week02)
+- In-Class Exercises: [Control Structures](Week02)
