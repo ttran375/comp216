@@ -1,19 +1,12 @@
-import importlib
-# import calc as c
 import calc
+import importlib
 
-print(globals)
+output_1 = calc.add(4,7)
+print(output_1)
 
-# output_1 = c.add(4, 7)
-# print(output_1)
-
-# output_2 = c.diff(2, 9)
-# print(output_2)
-
-print(globals)
+output_2 = calc.diff(2,9)
+print(output_2)
 
 importlib.reload(calc)
-# import calc
-# import calc
 
 print(globals())

@@ -1,7 +1,6 @@
-x = "variable_1"
+#x = 'variable_1'
 def f():
-    # x = "variable_2"
-    print(x)
-
+  #x = 'variable_2'
+  print(x)
 
 f()

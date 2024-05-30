@@ -1,5 +1,5 @@
-divide_number = 7 / 0
+divide_numbers = 7 / 0
 
-print(divide_number)
+print(divide_numbers)
 
-print("COMP216")
+print('COMP216')
