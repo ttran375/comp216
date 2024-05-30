@@ -1,6 +1,6 @@
 # Python Module calc
-import calc
 
+print('Importing Calc Module')
 
 def add(x, y):
     return x + y
