@@ -1,10 +1,12 @@
 # print(dir(__builtins__))
-x = 'variable_1'
-def f():
-    x = 'variable_2'
+x = "variable_1"
 
-    def g():
-        x = 'variable_3'
+
+# def f():
+#     x = "variable_2"
+
+#     def g():
+#         x = "variable_3"
 
 
 print(x)

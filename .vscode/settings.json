@@ -5,8 +5,11 @@
     "gitdoc.autoPushDelay": 0,
     "gitdoc.commitMessageFormat": "ccc, LLL d, y, h:mm a '+00:00'",
     "flake8.args": [
-        "--ignore=E501,F541,F841,E302"
+        "--ignore=E501,F541,F841,E302,E402,F401"
     ],
     "editor.tabSize": 2,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "mypy-type-checker.args": [
+        "import-not-found"
+    ]
 }
