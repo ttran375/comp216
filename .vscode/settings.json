@@ -5,7 +5,7 @@
     "gitdoc.autoPushDelay": 0,
     "gitdoc.commitMessageFormat": "ccc, LLL d, y, h:mm a '+00:00'",
     "flake8.args": [
-        "--ignore=E302,E402,E501,E722,F401,F403,F405,F541,F811,F841"
+        "--ignore=E302,E402,E501,E722,E731,F401,F403,F405,F541,F811,F841"
     ],
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
