@@ -17,4 +17,5 @@ print(full_name(field_1, field_2))
 
 basic_fn = lambda func, a: a + func(a)
 nest_lambda = basic_fn(lambda a: a**3, 3)
+# nest_lambda = basic_fn(lambda a: a/0, 3)
 print(nest_lambda)
