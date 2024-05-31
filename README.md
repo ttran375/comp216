@@ -14,4 +14,4 @@
 
 ## Week 4
 
-- In-Class Exercises: Packages
+- In-Class Exercises: Packages, 
