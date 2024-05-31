@@ -22,10 +22,12 @@ def const_validator(char_input):
         return False
 
 
+"""
 print(sentence)
 for c in sentence:
     print(c)
     print(const_validator(c))
+"""
 
 const_3 = [char_1 for char_1 in sentence if const_validator(char_1)]
 print(const_3)
