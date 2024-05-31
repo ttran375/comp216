@@ -20,3 +20,9 @@ def convert_to_fahr(c):
 
 fhar_list_2 = map(convert_to_fahr, celc_temps)
 print(list(fhar_list_2))
+
+
+###### --> pow(x, y) --> x ** y
+# output = map(pow, (6, 9, 4, 3), [2, 6, 0, 1], [5, 7, 0, 4])
+output = map(pow, (6, 9, 4, 3), [2, 6])
+print(list(output))
