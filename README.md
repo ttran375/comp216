@@ -7,14 +7,14 @@
 ## Week 2
 
 - In-Class Exercises: [Control Structures](control-structures)
-- Lab: Data Types, Control Structures
+- Lab: [Data Types, Control Structures](https://github.com/ttran375/comp216-lab1)
 
 ## Week 3
 
 - In-Class Exercises: [Classes](classes)
-- Lab: Triangle Class
+- Lab: [Triangle Class](https://github.com/ttran375/comp216-lab4)
 
 ## Week 4
 
 - In-Class Exercises: [Packages](packages), [Advanced Concepts](advanced_concepts)
-- Lab: Shopper Class
+- Lab: [Pizza Class](https://github.com/ttran375/comp216-lab2), [Shopper Class](https://github.com/ttran375/comp216-lab3)
