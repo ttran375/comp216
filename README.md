@@ -21,4 +21,4 @@
 
 ## Week 5
 
-- In-Class Exercises: Wireshark
+- In-Class Exercises: Networking Basics, Wireshark
