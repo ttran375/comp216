@@ -12,12 +12,12 @@
 ## Week 3
 
 - In-Class Exercises: [Classes](classes)
-- Lab: [Triangle Class](https://github.com/ttran375/comp216-lab4)
+- Lab: [Triangle Class](https://github.com/ttran375/comp216-lab2)
 
 ## Week 4
 
 - In-Class Exercises: [Packages](packages), [Advanced Concepts](advanced_concepts)
-- Lab: [Pizza Class](https://github.com/ttran375/comp216-lab2), [Shopper Class](https://github.com/ttran375/comp216-lab3)
+- Lab: [Pizza Class, Shopper Class](https://github.com/ttran375/comp216-lab3)
 
 ## Week 5
 
