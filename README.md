@@ -18,3 +18,7 @@
 
 - In-Class Exercises: [Packages](packages), [Advanced Concepts](advanced_concepts)
 - Lab: [Pizza Class](https://github.com/ttran375/comp216-lab2), [Shopper Class](https://github.com/ttran375/comp216-lab3)
+
+## Week 4
+
+- In-Class Exercises: Wireshark
