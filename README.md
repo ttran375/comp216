@@ -13,16 +13,21 @@
 ## Week 3
 
 - In-Class Exercises: [Classes](classes)
-- Labs: [Triangle](https://github.com/ttran375/comp216-lab2)
+- Labs: [Lecture 2](https://github.com/ttran375/comp216-lab2)
 
 ## Week 4
 
 - In-Class Exercises: [Packages](packages), [Advanced Concepts](advanced_concepts)
-- Labs: User
+- Labs: [Lecture 3](https://github.com/ttran375/comp216-lab3)
 - Assignments: [Pizza Class](https://github.com/ttran375/comp216-assignment2), [Shopper Class](https://github.com/ttran375/comp216-assignment3)
 
 ## Week 5
 
 - In-Class Exercises: Networking Basics, Wireshark
-- Labs: UML Model
+- Labs: [Lecture 4](https://github.com/ttran375/comp216-lab4)
+
+## Week 5
+
+- In-Class Exercises: Protocol Basics, Application Layer
+- Labs: [Lecture 4](https://github.com/ttran375/comp216-lab4)
 - Assignments: Using threads, Tkinter GUI Application
