@@ -7,7 +7,7 @@
 ## Week 2
 
 - In-Class Exercises: [Control Structures](control-structures)
-- Labs: [Lecture 1](https://github.com/ttran375/comp216-lab2)
+- Labs: [Lecture 1](https://github.com/ttran375/comp216-lab1)
 - Assignments: [Data Types, Control Structures](https://github.com/ttran375/comp216-assignment1)
 
 ## Week 3
