@@ -29,4 +29,4 @@
 ## Week 6
 
 - In-Class Exercises: Protocol Basics, Application Layer, HTTP, DNS
-- Assignments: Using threads, Tkinter GUI Application
+- Assignments: [Using threads](https://github.com/ttran375/comp216-assignment4-1), [Tkinter GUI Application](https://github.com/ttran375/comp216-assignment4-2)
