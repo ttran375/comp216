@@ -8,7 +8,7 @@
 
 - In-Class Exercises: [Control Structures](control-structures)
 - Labs: Lecture 1
-- Assignments: [Lab 1 - Data Types, Control Structures](https://github.com/ttran375/comp216-assignment1)
+- Assignments: [Data Types, Control Structures](https://github.com/ttran375/comp216-assignment1)
 
 ## Week 3
 
