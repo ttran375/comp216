@@ -7,19 +7,22 @@
 ## Week 2
 
 - In-Class Exercises: [Control Structures](control-structures)
-- Labs: [Lab 1 - Data Types, Control Structures](https://github.com/ttran375/comp216-lab1)
+- Labs: Lecture 1
+- Assignments: [Lab 1 - Data Types, Control Structures](https://github.com/ttran375/comp216-assignment1)
 
 ## Week 3
 
 - In-Class Exercises: [Classes](classes)
-- Labs: [Lab 4 - Triangle Class](https://github.com/ttran375/comp216-lab2)
+- Labs: [Triangle](https://github.com/ttran375/comp216-lab2)
 
 ## Week 4
 
 - In-Class Exercises: [Packages](packages), [Advanced Concepts](advanced_concepts)
-- Labs: [Lab 2 - Pizza Class, Lab 3 - Shopper Class](https://github.com/ttran375/comp216-lab3)
+- Labs: User
+- Assignments: [Pizza Class](https://github.com/ttran375/comp216-assignment2), [Shopper Class]([https://github.com/ttran375/comp216-lab3](https://github.com/ttran375/comp216-assignment3)
 
 ## Week 5
 
 - In-Class Exercises: Networking Basics, Wireshark
-- Labs: Lab 4 – Using threads
+- Labs: UML Model
+- Assignments: Using threads, Tkinter GUI Application
