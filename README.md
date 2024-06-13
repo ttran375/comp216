@@ -29,5 +29,4 @@
 ## Week 5
 
 - In-Class Exercises: Protocol Basics, Application Layer, HTTP, DNS
-- Labs: [Lecture 4](https://github.com/ttran375/comp216-lab4)
 - Assignments: Using threads, Tkinter GUI Application
