@@ -19,7 +19,7 @@
 
 - In-Class Exercises: [Packages](packages), [Advanced Concepts](advanced_concepts)
 - Labs: User
-- Assignments: [Pizza Class](https://github.com/ttran375/comp216-assignment2), [Shopper Class](https://github.com/ttran375/comp216-lab3](https://github.com/ttran375/comp216-assignment3)
+- Assignments: [Pizza Class](https://github.com/ttran375/comp216-assignment2), [Shopper Class](https://github.com/ttran375/comp216-assignment3)
 
 ## Week 5
 
