@@ -26,7 +26,7 @@
 - In-Class Exercises: Networking Basics, Network Devices, Wireshark
 - Labs: [Lecture 4](https://github.com/ttran375/comp216-lab4)
 
-## Week 5
+## Week 6
 
 - In-Class Exercises: Protocol Basics, Application Layer, HTTP, DNS
 - Assignments: Using threads, Tkinter GUI Application
