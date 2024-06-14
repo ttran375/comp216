@@ -4,7 +4,11 @@ import requests
 url = "https://api.github.com/search/repositories"
 
 try:
-    response = requests.get(url, params={"q": "requests+language:python"})
+    response = requests.get(
+        url,
+        params={"q": "requests+language:python"},
+        headers={"Accept": "application/vnd.github.text-match+json"},
+    )
     # print(response)
     response.raise_for_status()
 except HTTPError as http_err:
