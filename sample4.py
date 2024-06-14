@@ -17,12 +17,21 @@ except Exception as err:
     print("Error")
 else:
     header = response.headers
-    print(type(header))
+    # print(type(header))
 
-    print(header)
+    # print(header)
 
-    date = header["Date"]
-    print(date)
-    cont_type_1 = header["Content-Type"]
-    cont_type_2 = header["content-type"]
-    print(cont_type_1, cont_type_2)
+    # date = header["Date"]
+    # print(date)
+    # cont_type_1 = header["Content-Type"]
+    # cont_type_2 = header["content-type"]
+    # print(cont_type_1, cont_type_2)
+
+    print(response.url)
+
+    response_json = response.json()
+
+    first_result = response_json["items"][0]
+
+    print(first_result["full_name"])
+    print(first_result)
