@@ -1,7 +1,7 @@
 from requests import HTTPError
 import requests
 
-url = "https://api.github.com/"
+url = "https://api.github.com/search/repositories"
 
 try:
     response = requests.get(url)
