@@ -8,7 +8,7 @@
         "--ignore=E266,E302,E402,E501,E722,E731,F401,F403,F405,F541,F811,F841"
     ],
     "editor.tabSize": 2,
-    "files.insertFinalNewline": true,
+    // "files.insertFinalNewline": true,
     "mypy-type-checker.args": [
         "import-not-found"
     ]
