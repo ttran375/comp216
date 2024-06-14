@@ -16,3 +16,5 @@ else:
         for chunk in response.iter_content(chunk_size=10):
             print(chunk)
             events.write(chunk)
+
+            
