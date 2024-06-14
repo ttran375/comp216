@@ -17,8 +17,12 @@ else:
     # print(type(cont))
     # print(cont)
 
-    response.encoding = "utf-8"
-    cont_text = response.text
+    # response.encoding = "utf-8"
+    # cont_text = response.text
 
-    print(type(cont_text))
-    print(cont_text)
+    # print(type(cont_text))
+    # print(cont_text)
+
+    cont_json = response.json()
+    print(type(cont_json))
+    print(cont_json)
