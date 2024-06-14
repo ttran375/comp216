@@ -20,4 +20,4 @@ for url in urls:
     except Exception as err:
         print("Error")
     else:
-        print("Successful!")
+        print("Success!")
