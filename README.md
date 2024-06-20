@@ -28,14 +28,11 @@
 
 ## Week 6
 
-- In-Class Exercises: Protocol Basics, Application Layer, HTTP, DNS
-- Assignments: [Using threads](https://github.com/ttran375/comp216-assignment4-1), [Tkinter GUI Application](https://github.com/ttran375/comp216-assignment4-2)
-
-## Week 6
-
-- In-Class Exercises: Protocol Basics, Application Layer, HTTP, DNS
+- In-Class Exercises: [Protocol Basics, Application Layer](protocol-basics)
 - Assignments: [Using threads](https://github.com/ttran375/comp216-assignment4-1), [Tkinter GUI Application](https://github.com/ttran375/comp216-assignment4-2)
 
 ## Week 7
 
-- In-Class Exercises: Multiplexing - Demultiplexing
+- In-Class Exercises: [HTTP, DNS](http-dns)
+- Labs: [Lecture 5](https://github.com/ttran375/comp216-lab5)
+- Assignments: [Threads and Requests](https://github.com/ttran375/comp216-assignment5)
