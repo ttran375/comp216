@@ -1,19 +1,10 @@
 import requests
 
-response = requests.get("https://api.github.com/")
-print(response)
+url = "https://httpbin.org/post"
 
-print(response.status_code)
+input = {"k1": "v1", "k2": "v2", "k3": "v3"}
 
-if response.status_code == 200:
-    print("Successful Request")
-elif response.status_code == 404:
-    print("Resource Not Found")
-else:
-    print("Other Status Code")
+response = requests.post(url, data=input)
 
-
-if response:
-    print("Successful Request")
-else:
-    print("Error with Request")
+print(response.headers)
+print(response.json())
