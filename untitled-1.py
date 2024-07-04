@@ -24,6 +24,7 @@ try:
     with smtplib.SMTP(SERVER, PORT) as smtp:
         smtp.starttls()
         smtp.login(EMAIL_ACC, PASSWORD)
+        smtp.sendmail(EMAIL_ACC, RECPT, message)
 except Exception as e:
     print(f"Error: {e}")
 else:
