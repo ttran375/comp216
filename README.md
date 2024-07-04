@@ -36,3 +36,7 @@
 - In-Class Exercises: [HTTP, DNS](http-dns), Telnet, FTP
 - Labs: [Lecture 5](https://github.com/ttran375/comp216-lab5)
 - Assignments: [Threads and Requests](https://github.com/ttran375/comp216-assignment5)
+
+## Week 9
+
+- In-Class Exercises: SMTP
