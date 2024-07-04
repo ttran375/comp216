@@ -19,3 +19,12 @@ Subject: SMTP Test
 
 Testing new Python app. First email!
 """
+
+try:
+    with smtplib.SMTP(SERVER, PORT) as smtp:
+        smtp.starttls()
+        smtp.login(EMAIL_ACC, PASSWORD)
+except Exception as e:
+    print(f"Error: {e}")
+else:
+    print("Success")
