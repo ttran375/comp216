@@ -17,9 +17,13 @@ html_m = "<html><body><b>Hello</b><br>Testing HTML Email</br>--COMP216</body></h
 
 
 email_content = MIMEText(html_m, "html")
-email_content["From"] = EMAIL_ACC
+
+txt_m = "Hello Testing HTML Email --COMP216"
+t_email_content = MIMEText(txt_m, "text")
+
+'''email_content["From"] = EMAIL_ACC
 email_content["To"] = RECPT
-email_content["Subject"] = "Testing HTML Email Message"
+email_content["Subject"] = "Testing HTML Email Message"'''
 
 
 try:
