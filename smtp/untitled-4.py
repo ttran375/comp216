@@ -32,6 +32,9 @@ with open(filename, "rb") as upload_file:
     attachment = MIMEBase("application", "octet-stream")
     attachment.set_payload(upload_file.read())
 
+encoders.encode_base64(attachment)
+attachment.add_header('Content-Disposition', f'attachment; filename={filename}')
+
 
 email_msg = MIMEMultipart()
 email_msg["From"] = EMAIL_ACC
