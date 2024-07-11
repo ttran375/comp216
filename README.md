@@ -40,3 +40,7 @@
 ## Week 9
 
 - In-Class Exercises: [SMTP](smtp)
+
+## Week 9
+
+- In-Class Exercises: POP I
