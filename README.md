@@ -43,4 +43,5 @@
 
 ## Week 10
 
-- In-Class Exercises: POP I
+- In-Class Exercises: [POP I](pop-i)
+- Tests: Test 1
