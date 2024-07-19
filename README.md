@@ -45,3 +45,8 @@
 
 - In-Class Exercises: [POP I](pop-i)
 - Tests: Test 1
+
+## Week 11
+
+- In-Class Exercises: MMTQ
+- Tests: Test 1
