@@ -48,5 +48,5 @@
 
 ## Week 11
 
-- In-Class Exercises: MQTT
+- In-Class Exercises: [MQTT](mqtt)
 - Tests: Test 1
