@@ -37,16 +37,23 @@
 - Labs: [Lecture 5](https://github.com/ttran375/comp216-lab5)
 - Assignments: [Threads and Requests](https://github.com/ttran375/comp216-assignment5)
 
-## Week 9
+## Week 8
 
 - In-Class Exercises: [SMTP](smtp)
 
-## Week 10
+## Week 9
 
 - In-Class Exercises: [POP I](pop-i)
 - Tests: Test 1
 
-## Week 11
+## Week 10
 
 - In-Class Exercises: [MQTT](mqtt)
-- Tests: Test 1
+
+## Week 11
+
+- In-Class Exercises: [Mosquitto](mqtt)
+
+## Week 12
+
+- In-Class Exercises: [Simple Notification Service, Simple Queue Service, DynamoDBv2](sns-sqs-dynamo)
