@@ -57,3 +57,4 @@
 ## Week 12
 
 - In-Class Exercises: [Simple Notification Service, Simple Queue Service, DynamoDBv2](sns-sqs-dynamo)
+- Assignments: [Email Services](https://github.com/ttran375/comp216-assignment8-group2)
