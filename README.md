@@ -58,3 +58,7 @@
 
 - In-Class Exercises: [Simple Notification Service, Simple Queue Service, DynamoDBv2](sns-sqs-dynamo)
 - Assignments: [Email Services](https://github.com/ttran375/comp216-assignment8-group2)
+
+## Week 13
+
+- In-Class Exercises: [Sockets](sockets)
