@@ -17,6 +17,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_server:
             if not inbound_message:
                 break
             print(f"Received from client: {inbound_message.decode('utf-8')}")
-            outboud_msg = "Server processed message:" + inbound_message.decode("utf-8")
-            client_conn.send(outboud_msg.encode())
+            outbound_msg = "Server processed message: " + inbound_message.decode("utf-8")
+            client_conn.send(outbound_msg.encode())
             print(f"Sent data: {inbound_message.decode()}")
