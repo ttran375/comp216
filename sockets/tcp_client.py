@@ -6,7 +6,7 @@ SERVER_PORT = 12345
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_client:
     tcp_client.connect((SERVER_HOST, SERVER_PORT))
-    print(f"Client connected to the server")
+    print("Client connected to the server")
 
     for i in range(4):
         outbound_message = f"Message {i}"
