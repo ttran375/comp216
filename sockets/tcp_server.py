@@ -29,6 +29,7 @@ def incoming_message(client_soc_obj, username):
         inbound_message = client_soc_obj.recv(2048).decode("utf-8")
         print(f"Message Log: {username} -- {inbound_message}")
         outbound_message = f"{username} ~ {inbound_message}".encode()
+        print(f"Sending message: {outbound_message}")
 
 
 def sending_message(message):
