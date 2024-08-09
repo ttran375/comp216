@@ -3,6 +3,17 @@ import socket
 HOST = "localhost"
 PORT = 12345
 
+
+active_clients = []
+
+
+def client_handler(client_soc_obj):
+    username = client_soc_obj.recv(2048).decode("utf-8")
+    print(f"User {username} is connected.\n")
+    active_clients.append((username, client_soc_obj))
+    client_soc_obj.sendall(f"{username} entered Chat Room.".encode("utf-8"))
+
+
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_server:
     tcp_server.bind((HOST, PORT))
     print("Server is running.")
