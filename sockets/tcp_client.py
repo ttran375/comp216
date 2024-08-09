@@ -8,6 +8,10 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_client:
     tcp_client.connect((SERVER_HOST, SERVER_PORT))
     print("Client connected to the server")
 
+    tcp_client.sendall("Terry".encode())
+    message = tcp_client.recv(1024)
+    print(message.decode("utf-8"))
+
     for i in range(4):
         outbound_message = f"Message {i}"
         tcp_client.sendall(outbound_message.encode())

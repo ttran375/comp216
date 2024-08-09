@@ -12,18 +12,21 @@ def client_handler(client_soc_obj):
     username = client_soc_obj.recv(2048).decode("utf-8")
     print(f"User {username} is connected.\n")
     active_clients.append((username, client_soc_obj))
-    client_soc_obj.sendall(f"{username} entered Chat Room.".encode("utf-8"))
+    # client_soc_obj.sendall(f"{username} entered Chat Room.".encode("utf-8"))
+    sending_message(f"{username} entered Chat Room.".encode())
 
 
 def incoming_message(client_soc_obj, username):
     while True:
         inbound_message = client_soc_obj.recv(2048).decode("utf-8")
-        if not inbound_message:
-            break
-        print(f"Received from client: {inbound_message}")
-        for user, client in active_clients:
-            if client != client_soc_obj:
-                client.sendall(inbound_message.encode("utf-8"))
+        print(f"Message Log: {username} -- {inbound_message}")
+        outbound_message = f"{username} ~ {inbound_message}".encode()
+
+
+def sending_message(message):
+    for user in active_clients:
+        tcp_client_soc = user[1]
+        tcp_client_soc.sendall(message)
 
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_server:
