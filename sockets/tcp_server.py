@@ -15,6 +15,14 @@ def client_handler(client_soc_obj):
     # client_soc_obj.sendall(f"{username} entered Chat Room.".encode("utf-8"))
     sending_message(f"{username} entered Chat Room.".encode())
 
+    threading.Thread(
+        target=incoming_message,
+        args=(
+            client_soc_obj,
+            username,
+        ),
+    ).start()
+
 
 def incoming_message(client_soc_obj, username):
     while True:
