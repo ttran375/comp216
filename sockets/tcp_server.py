@@ -1,4 +1,5 @@
 import socket
+import threading
 
 HOST = "localhost"
 PORT = 12345
@@ -14,6 +15,17 @@ def client_handler(client_soc_obj):
     client_soc_obj.sendall(f"{username} entered Chat Room.".encode("utf-8"))
 
 
+def incoming_message(client_soc_obj, username):
+    while True:
+        inbound_message = client_soc_obj.recv(2048).decode("utf-8")
+        if not inbound_message:
+            break
+        print(f"Received from client: {inbound_message}")
+        for user, client in active_clients:
+            if client != client_soc_obj:
+                client.sendall(inbound_message.encode("utf-8"))
+
+
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_server:
     tcp_server.bind((HOST, PORT))
     print("Server is running.")
@@ -22,6 +34,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_server:
     while True:
         client_conn, addr = tcp_server.accept()
         print(f"Client connected from IP: {addr[1]} via Port: {addr[0]}")
+
+        threading.Thread(target=client_handler, args=(client_conn,)).start()
 
     # client_conn, addr = tcp_server.accept()
     # print(f"Client connected from IP: {addr[0]} via Port: {addr[1]}")
