@@ -1,18 +1,16 @@
 import socket
+import time
 
-HOST = "localhost"
-PORT = 12345
+SERVER_HOST = "localhost"
+SERVER_PORT = 12345
 
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_server:
-    tcp_server.bind((HOST, PORT))
-    tcp_server.listen()
-    client_conn, addr = tcp_server.accept()
-    print(f"Client conneted from IP: {addr[0]} via Port: {addr[1]}")
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_client:
+    tcp_client.connect((SERVER_HOST, SERVER_PORT))
+    print("Client connecting to server.")
 
-    with client_conn:
-        while True:
-            data = client_conn.recv(1024)
-            if not data:
-                break
-            print(f"Received from client {data}")
-            client_conn.sendall(data)
+    for i in range(4):
+        outbound_message = f"Message {i}"
+        tcp_client.sendall(outbound_message.encode())
+        inbound_message = tcp_client.recv(1024)
+        print(f'Received from Sever: {inbound_message.decode("utf-8")}')
+        time.sleep(1)
