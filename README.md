@@ -62,3 +62,4 @@
 ## Week 13
 
 - In-Class Exercises: [Sockets](sockets)
+- Projects: [End-to-end IoT Solution](https://github.com/ttran375/comp216-project-group2)
